@@ -2,9 +2,8 @@
 from flask import Flask, render_template, redirect, url_for, flash, request
 from flask_sqlalchemy import SQLAlchemy
 from flask_bootstrap import Bootstrap5
-from sqlalchemy.exc import NoResultFound, MultipleResultsFound
-from sqlalchemy.orm import relationship, DeclarativeBase, Mapped, mapped_column
-from sqlalchemy import Integer, String, Text, ForeignKey, Boolean
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
+from sqlalchemy import Integer, String, Boolean
 from forms import AddCafeForm, DeleteCafeForm
 import os
 from dotenv import load_dotenv
