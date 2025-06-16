@@ -1,0 +1,59 @@
+/* THIS IS MY CUSTOM CSS FILE! */
+
+/*
+ * CUSTOM BUTTONS
+*/
+.btn-brown {
+    background-color: #CD7F32;
+    color: white;
+    border: none;
+}
+
+.btn-brown:hover,
+.btn-brown:focus {
+    background-color: #EADDCA;
+    color: white;
+}
+
+.btn-burgundy {
+    background-color: #800020;
+    color: white;
+    border: none;
+}
+
+.btn-burgundy:hover,
+.btn-burgundy:focus {
+    background-color: #A8415B;
+    color: white;
+}
+
+.btn-gold {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+}
+
+.btn-gold:hover,
+.btn-gold:focus {
+    background-color: #FDE37F;
+    color: white;
+}
+
+.btn-dark-green {
+    background-color: #006400;
+    color: white;
+    border: none;
+}
+
+.btn-dark-green:hover,
+.btn-dark-green:focus {
+    background-color: #32cd32;
+    color: white;
+}
+
+/*
+ * CUSTOM CONTAINER BACKGROUND
+*/
+.bg-bronze {
+    background-color: #8c5c2f; /* deep bronze
+}
